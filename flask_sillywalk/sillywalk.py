@@ -88,7 +88,7 @@ class SwaggerApiRegistry(object):
 
         Usage:
 
-        >>> @my_registry.registerModel(type="Animal")
+        >>> @my_registry.registerModel(type_="Animal")
         >>> class Dog(object):
         >>>     def __init__(self):
         >>>     pass
